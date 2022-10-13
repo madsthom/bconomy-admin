@@ -9,6 +9,13 @@ export const exampleRouter = router({
         greeting: `Hello ${input?.text ?? "world"}`,
       };
     }),
+  hello2: publicProcedure
+    .input(z.object({ torben: z.string().nullish() }).nullish())
+    .query(({ input }) => {
+      return {
+        lars: `Hello ${input?.torben ?? "world"}`,
+      };
+    }),
   getAll: publicProcedure.query(({ ctx }) => {
     return ctx.prisma.example.findMany();
   }),
