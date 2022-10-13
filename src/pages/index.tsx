@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import { trpc } from "../utils/trpc";
-import { Invoice } from "./components/Invoice";
+import { Invoice } from "../server/Invoice";
 import InvoiceTable from "./components/InvoiceTable";
 import Header from "./components/Header";
 

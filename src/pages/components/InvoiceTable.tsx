@@ -1,6 +1,6 @@
 import React from "react";
 import { Table } from "@mantine/core";
-import { Invoice } from "./Invoice";
+import { Invoice } from "../../server/Invoice";
 import AlertIcon from "./AlertIcon";
 
 type TableProps = {
