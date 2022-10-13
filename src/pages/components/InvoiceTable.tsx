@@ -8,7 +8,7 @@ type TableProps = {
 };
 
 const InvoiceTable = ({ invoices }: TableProps) => {
-  const rows = invoices.map((invoice) => {
+  const rows = invoices?.map((invoice) => {
     return (
       <tr key={invoice.invoiceName}>
         <td>
