@@ -21,4 +21,5 @@ export default defineNextConfig({
     locales: ["en"],
     defaultLocale: "en",
   },
+  ignoreDuringBuilds: true,
 });
