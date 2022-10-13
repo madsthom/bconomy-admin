@@ -1,7 +1,7 @@
 import React from "react";
 import { Table } from "@mantine/core";
 import { Invoice } from "./Invoice";
-import { AlertIcon } from "./AlertIcon";
+import AlertIcon from "./AlertIcon";
 
 type TableProps = {
   invoices: Invoice[];

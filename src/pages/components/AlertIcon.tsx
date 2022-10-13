@@ -1,5 +1,5 @@
 import { IoAlertCircle } from "react-icons/io5";
 
-export function AlertIcon() {
+export default function AlertIcon() {
   return <IoAlertCircle></IoAlertCircle>;
 }
